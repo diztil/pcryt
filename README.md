@@ -16,3 +16,20 @@ python lfsr.py attemptall 5
 
 ### Copyright Notice
 Pcryt is open source. That means anyone is free to download, modify, sell, use, etc. any part of this program. It is a kind note to please credit the author(s) of the modules if you can.
+
+### Version Updates
+* __v0.1.0 'Cronos'__ (obsolete)
+  * [x] encryption with LFSR
+  * [x] decryption with LFSR
+  * [ ] mass decryption
+  * [ ] CUI
+* __v0.1.1 'Cronos II'__ (current)
+  * [x] encryption with LFSR
+  * [x] decryption with LFSR
+  * [x] mass decryption
+  * [x] CUI
+  * [x] Base64 encoding
+  * [ ] ASCII encoding
+  * [ ] unlimited 'tap position' range
+
+> The features without the tick marks will be added soon, in the next version.
