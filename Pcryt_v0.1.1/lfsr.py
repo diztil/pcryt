@@ -1,6 +1,11 @@
 # Client for LFSR encryption "Pcryt" modules
 # @author dmimukto 2021
 
+'''
+You need to use the CUI as shown in the Github README.md file, to operate this successfully.
+Info : https://github.com/dmimukto/pcryt
+'''
+
 # MODULE IMPORTS
 import sys
 import pcryt_encryption
