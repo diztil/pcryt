@@ -10,7 +10,7 @@ At the moment, Pcryt is highly simplified and minimalistic.
 ###### For v0.1.2
 1. Command Line Method
 * Single Message Encryption/Decryption
- Use the following command in the command line interface. Replace the "MESSAGE" with the text you want to encrypt, replace "SEED" with a binary value, e.g. 110010, and the "TAPPOSITION" can be a number less than the maximum number of digits in the SEED you enter.
+Use the following command in the command line interface. Replace the "MESSAGE" with the text you want to encrypt, replace "SEED" with a binary value, e.g. 110010, and the "TAPPOSITION" can be a number less than the maximum number of digits in the SEED you enter.
 ```python
 python lfsr.py MESSAGE SEED TAPPOSITION
 ```
@@ -19,15 +19,15 @@ Use the following command to initiate "mass decrypting" mode.
 python lfsr.py _attemptall_ SEED
 ```
 * Text File Encryption/Decryption
- Use the following command in the command line interface.
+Use the following command in the command line interface.
  ```python
  python lfsr_auto.py SEED TAPPOSITION
  ```
  2. Instruction Prompt (Batch File) Method
  * Single Message Encryption/Decryption
-  Launch the "pcryt_launcher.bat" file. Instructions are presented step-by-step.
+ Launch the "pcryt_launcher.bat" file. Instructions are presented step-by-step.
  * Text File Encryption
-  Launch the "pcryt_encrypt.bat" file. Nothing else to do. It uses a default seed and tapposition automatically.
+ Launch the "pcryt_encrypt.bat" file. Nothing else to do. It uses a default seed and tapposition automatically.
 
 ###### For earlier versions
 Use the following command in the command line interface. Replace the "MESSAGE" with the text you want to encrypt, and the TAPPOSITION can be a number between 0-5
