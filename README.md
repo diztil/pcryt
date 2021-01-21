@@ -33,5 +33,6 @@ Pcryt is open source. That means anyone is free to download, modify, sell, use, 
   * [x] Base64 encoding
   * [ ] ASCII encoding
   * [ ] unlimited 'tap position' range
+  * [ ] text file encryption
 
 > The features without the tick marks will be added soon, in the next version.
