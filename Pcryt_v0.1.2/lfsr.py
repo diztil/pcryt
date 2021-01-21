@@ -9,11 +9,11 @@ import os.path
 # MAIN PROGRAM
 def main():
     message = sys.argv[1]
-    if message=="attemptall":
+    if message=="_attemptall_":
         message = input("Enter message to decrypt : ")
-        seed = sys.argv[2]
+        seed = input("Enter seed : ")
         seed_list = []
-        taps = len(seed)
+        taps = int(len(seed))
         for index in range(len(seed)):
             seed_list.append(bin(int(seed[index])))
         for trial in range(0,taps):
@@ -34,4 +34,3 @@ def main():
         
 
 main()
-    
