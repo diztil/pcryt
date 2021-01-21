@@ -10,7 +10,6 @@ import os.path
 def main():
     # selecting modes
     message = input("\n\nEnter message : ")
-    print("what")
     if message=="_attemptall_":
         message = input("Enter message to decrypt : ")
         seed = input("Enter seed : ")
