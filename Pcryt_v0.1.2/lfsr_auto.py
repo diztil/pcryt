@@ -22,6 +22,7 @@ def main():
         fileIn.seek(0)
         firstline = fileIn.readline()
         print("\nThe first line (preview):",firstline)
+        fileIn.seek(0)
         all_lines = fileIn.readlines()
         print("There are",len(all_lines),"lines in the text file.")
         fileIn.seek(0)
