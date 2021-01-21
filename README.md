@@ -24,9 +24,9 @@ Use the following command in the command line interface.
  python lfsr_auto.py SEED TAPPOSITION
  ```
 2. Instruction Prompt (Batch File) Method
-##### Single Message Encryption/Decryption *
+##### Single Message Encryption/Decryption
  Launch the "pcryt_launcher.bat" file. Instructions are presented step-by-step.
-##### Text File Encryption *
+##### Text File Encryption
  Launch the "pcryt_encrypt.bat" file. Nothing else to do. It uses a default seed and tapposition automatically.
 
 
