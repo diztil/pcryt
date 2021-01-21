@@ -1,6 +1,8 @@
 # Pcryt
 Pcryt is a Python-based encryption program.
 
+![Pcryt logo](https://github.com/dmimukto/pcryt/blob/main/pcryt_logo.png)
+
 ### About Pcryt
 At the moment, Pcryt is highly simplified and minimalistic.
 
